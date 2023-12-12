@@ -1,0 +1,13 @@
+<button mat-raised-button color="warn" (click)="hideContent = !hideContent">
+  Toggle Content
+</button>
+<div *appIfNot="!hideContent">
+  <mat-card>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nihil
+      vero expedita, odio sequi, adipisci praesentium qui quaerat quo dolorum
+      blanditiis ex quia. Maxime expedita repudiandae voluptatibus recusandae
+      officiis similique!
+    </p>
+  </mat-card>
+</div>
